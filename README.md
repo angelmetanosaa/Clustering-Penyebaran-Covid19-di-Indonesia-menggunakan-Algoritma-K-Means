@@ -1,0 +1,4 @@
+# Clustering-Penyebaran-Covid19-di-Indonesia-menggunakan-Algoritma-K-Means
+
+Attribute yang digunakan dalam clustering ini adalah Lat (Latitude), Long (Longitude), Dikonfirmasi, Sembuh, dan Meninggal Dunia. Untuk atribut Lokasi tidak digunakan atau dilakukan drop karena menurut saya atribut tersebut hanya memberikan informasi nama provinsi yang ada pada dataset sehingga tidak mempengaruhi hasil clustering. Clustering ini memiliki tujuan yaitu untuk menemukan hasil clustering dari 5 atribut tersebut dan membentuk kelompok penyebaran covid19 di 34 provinsi Indonesia. Algoritma yang digunakan adalah algoritm K-Means. K-Means merupakan algoritma partisi, karena K-Means didasarkan pada penentuan jumlah awal kelompok dengan
+mendefinisikan nilai centroid awal. K-Means merupakan algoritma yang digunakan secara berulang untuk mendapatkan basis data cluster. Jika algoritma diperlukan untuk menghasilkan cluster K maka akan ada K awal dan K akhir.
